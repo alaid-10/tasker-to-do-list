@@ -43,8 +43,8 @@ There's nothing to install.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/tasker.git
-   cd tasker
+   git clone https://github.com/alaid-10/tasker.git
+   cd tasker-to-do-list
    ```
 2. Open `index.html` in your browser.
 
