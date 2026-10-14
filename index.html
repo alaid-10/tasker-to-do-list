@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasker - Your To-Do List</title>
+    <link rel="icon" href="favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <header class="app-header">
+            <div>
+                <p class="eyebrow">YOUR DAILY FOCUS</p>
+                <h1>Tasker<span>.</span></h1>
+                <p class="subtitle">Small steps make big progress.</p>
+            </div>
+            <div class="progress-ring" aria-hidden="true">
+                <span id="progress">0%</span>
+            </div>
+        </header>
+
+        <section class="task-section">
+            <div class="section-heading">
+                <h2>My tasks</h2>
+                <span id="task-count">0 tasks</span>
+            </div>
+            <div class="row">
+                <input id="taskinput" type="text" placeholder="What needs to be done?" aria-label="New task">
+                <button id="addbtn" type="button">Add task</button>
+            </div>
+            <ul id="tasklist"></ul>
+        </section>
+        <p class="credit">A mini project by Aidan</p>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
